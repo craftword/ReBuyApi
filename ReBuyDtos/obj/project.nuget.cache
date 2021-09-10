@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vNWURm4rYP+2NKWxQIWmkx6peSp5PghwaaRldxy7j6V62ZqXg3dDrg6fAaSfEp+V2RlwD3AbSiGbO3e4AiP+Fw==",
+  "dgSpecHash": "/WCu6H9Un7qlFq+nuqZk3OLhhVXRT20MqHHuTJQvta1z8bbKK2oAStcK1Wmu2rTs6e+QvvIZadeu7dbT9nlVKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyDtos\\ReBuyDtos.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\craft\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",
+    "C:\\Users\\craft\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\craft\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

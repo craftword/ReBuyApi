@@ -28,6 +28,7 @@ namespace ReBuyApi
         {
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReBuyApi", Version = "v1" });
