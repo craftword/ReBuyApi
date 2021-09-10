@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReBuyModels
+namespace ReBuyCore
 {
     public class Class1
     {

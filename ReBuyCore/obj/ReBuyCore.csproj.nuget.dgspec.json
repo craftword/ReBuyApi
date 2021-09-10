@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyModels\\ReBuyModels.csproj": {}
+    "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyCore\\ReBuyCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyModels\\ReBuyModels.csproj": {
+    "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyCore\\ReBuyCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyModels\\ReBuyModels.csproj",
-        "projectName": "ReBuyModels",
-        "projectPath": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyModels\\ReBuyModels.csproj",
+        "projectUniqueName": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyCore\\ReBuyCore.csproj",
+        "projectName": "ReBuyCore",
+        "projectPath": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyCore\\ReBuyCore.csproj",
         "packagesPath": "C:\\Users\\craft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyModels\\obj\\",
+        "outputPath": "C:\\Users\\craft\\source\\repos\\ReBuyApi\\ReBuyCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,12 +44,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
