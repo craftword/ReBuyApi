@@ -1,3 +1,32 @@
 ﻿[
+    {
+        "FullName": "Abimbola Olaitan",
+        "Email": "craftwordltd@gmail.com",
+        "PhoneNumber": "09083560307",
+        "Gender": "Male",
+        "IsActive": true,
+        "Address": "7 nobel Chris Arepo",
+        "State": "Ogun"
 
+    },
+    {
+        "FullName": "Michael Nwosu",
+        "Email": "michael@gmail.com",
+        "PhoneNumber": "",
+        "Gender": "Male",
+        "IsActive": true,
+        "Address": "7 kola shola alagbado",
+        "State": "Lagos"
+
+    },
+    {
+        "FullName": "Agnes Ugo",
+        "Email": "agnes@gmail.com",
+        "PhoneNumber": "08027313450",
+        "Gender": "Female",
+        "IsActive": true,
+        "Address": "7 nobel Chris Arepo",
+        "State": "Abuja"
+
+    }
 ]

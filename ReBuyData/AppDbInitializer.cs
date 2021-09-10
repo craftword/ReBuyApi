@@ -35,7 +35,7 @@ namespace ReBuyData
                 }
                 if (!context.Users.Any())
                 {
-                    var data = File.ReadAllText(@"C:\Users\craft\source\repos\WeekNine\WeekNineData\SeedData\Users.json");
+                    var data = File.ReadAllText(@"C:\Users\craft\source\repos\ReBuyApi\ReBuyData\SeedData\data.json");
                     var listOfUsers = JsonConvert.DeserializeObject<List<UsersModel>>(data);
                     int count = 0;
                     foreach (var user in listOfUsers)
@@ -58,7 +58,7 @@ namespace ReBuyData
                         {
                             if (count > 0)
                             {
-                                await userManager.AddToRoleAsync(newUser, "Regular");
+                                await userManager.AddToRoleAsync(newUser, "Customer");
 
                             }
                             else
