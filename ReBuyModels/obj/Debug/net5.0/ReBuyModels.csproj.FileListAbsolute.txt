@@ -1,0 +1,12 @@
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\bin\Debug\net5.0\ReBuyModels.deps.json
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\bin\Debug\net5.0\ReBuyModels.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\bin\Debug\net5.0\ref\ReBuyModels.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\bin\Debug\net5.0\ReBuyModels.pdb
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.csproj.AssemblyReference.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.AssemblyInfo.cs
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.csproj.CoreCompileInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ref\ReBuyModels.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyModels\obj\Debug\net5.0\ReBuyModels.pdb

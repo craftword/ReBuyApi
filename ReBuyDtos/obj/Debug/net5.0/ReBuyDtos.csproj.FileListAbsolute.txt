@@ -1,0 +1,12 @@
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\bin\Debug\net5.0\ReBuyDtos.deps.json
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\bin\Debug\net5.0\ReBuyDtos.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\bin\Debug\net5.0\ref\ReBuyDtos.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\bin\Debug\net5.0\ReBuyDtos.pdb
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.csproj.AssemblyReference.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.AssemblyInfo.cs
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.csproj.CoreCompileInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ref\ReBuyDtos.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyDtos\obj\Debug\net5.0\ReBuyDtos.pdb

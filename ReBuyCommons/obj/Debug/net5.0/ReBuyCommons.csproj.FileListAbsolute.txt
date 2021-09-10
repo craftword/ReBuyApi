@@ -1,0 +1,12 @@
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\bin\Debug\net5.0\ReBuyCommons.deps.json
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\bin\Debug\net5.0\ReBuyCommons.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\bin\Debug\net5.0\ref\ReBuyCommons.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\bin\Debug\net5.0\ReBuyCommons.pdb
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.csproj.AssemblyReference.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.AssemblyInfo.cs
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.csproj.CoreCompileInputs.cache
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ref\ReBuyCommons.dll
+C:\Users\craft\source\repos\ReBuyApi\ReBuyCommons\obj\Debug\net5.0\ReBuyCommons.pdb

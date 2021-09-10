@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.15.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReBuyCommons\ReBuyCommons.csproj" />
+    <ProjectReference Include="..\ReBuyData\ReBuyData.csproj" />
+    <ProjectReference Include="..\ReBuyModels\ReBuyModels.csproj" />
+  </ItemGroup>
+
 </Project>
