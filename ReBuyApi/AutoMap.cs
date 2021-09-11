@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using ReBuyModels;
 
 namespace ReBuyApi
 {
@@ -10,7 +11,7 @@ namespace ReBuyApi
     {
         public MappingProfile()
         {
-            //CreateMap<Users, UserDto>();
+            //CreateMap<UsersModel, UserDto>();
 
         }
     }
