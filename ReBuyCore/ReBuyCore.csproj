@@ -14,9 +14,4 @@
     <ProjectReference Include="..\ReBuyModels\ReBuyModels.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
 </Project>

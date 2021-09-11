@@ -9,13 +9,13 @@ using ReBuyModels;
 
 namespace ReBuyCore.Interface
 {
-    public interface IUser
+    public interface IUsers
     {
         Task<UploadResult> UploadImage(IFormFile image);
-        Task<List<UsersModel>> GetAllUserLikesProduct(string Id);
+        Task<List<ProductModel>> GetAllUserLikesProduct(string Id);
 
-        Task<List<UsersModel>> GetAllUserListingProduct(string Id);
+        Task<List<ProductModel>> GetAllUserListingProduct(string Id);
 
-        Task<List<UsersModel>> GetAllUserOrders(string Id);
+        Task<List<ProductModel>> GetAllUserOrders(string Id);
     }
 }

@@ -71,7 +71,13 @@ namespace ReBuyData
                         count++;
                     }
                 }
-
+                if (!context.Categories.Any())
+                {
+                    var data = File.ReadAllText(@"C:\Users\craft\source\repos\ReBuyApi\ReBuyData\SeedData\Cateory.json");
+                    var listOfcategories = JsonConvert.DeserializeObject<List<CategoryModel>>(data);
+                    await context.Categories.AddRangeAsync(listOfcategories);
+                    await context.SaveChangesAsync();
+                }
             }
             catch (Exception)
             {

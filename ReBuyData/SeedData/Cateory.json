@@ -1,0 +1,98 @@
+﻿[
+    {
+        "Name": "Books",
+        "Descriptions": "All type of Book, fiction, sci-fic, romance etc",
+        "Products": [
+            {
+                "Name": "Hero Never Dies",
+                "Descriptions": "This book is based on a true life story of Madela",
+                "Maker": "Chal Panny",
+                "Year": "2020",
+                "Price": 1500.00,
+                "HasWarant": true,
+                "HasOriginalPack": false
+            },
+            {
+                "Name": "Under Yellow Sun",
+                "Descriptions": "This book is based on Nigeria Civic war",
+                "Maker": "Chima amada",
+                "Year": "2012",
+                "Price": 2500.00,
+                "HasWarant": true,
+                "HasOriginalPack": true
+            }
+        ]
+    },
+    {
+        "Name": "Games",
+        "Descriptions": "For All the best Video Game Console",
+        "Products": [
+            {
+                "Name": "Super Nintendo",
+                "Descriptions": "This Console come with wireless joystick",
+                "Maker": "Samsung",
+                "Year": "1996",
+                "Price": 12000.00,
+                "HasWarant": true,
+                "HasOriginalPack": false
+            },
+            {
+                "Name": "Play Station 2",
+                "Descriptions": "This comes with wire pad and games cd",
+                "Maker": "Sony",
+                "Year": "2002",
+                "Price": 18000.00,
+                "HasWarant": true,
+                "HasOriginalPack": true
+            }
+        ]
+    },
+    {
+        "Name": "Music",
+        "Descriptions": "For all your musical appliances",
+        "Products": [
+            {
+                "Name": "Apple AirPod Pro",
+                "Descriptions": "For your itune store music",
+                "Maker": "Apple",
+                "Year": "2007",
+                "Price": 8999.00,
+                "HasWarant": true,
+                "HasOriginalPack": false
+            },
+            {
+                "Name": "JBL Charger Two speaker",
+                "Descriptions": "Sound Booster Music",
+                "Maker": "JBL ltd",
+                "Year": "2012",
+                "Price": 6940.00,
+                "HasWarant": true,
+                "HasOriginalPack": true
+            }
+        ]
+    },
+    {
+        "Name": "Camera",
+        "Descriptions": "All Camera you will like",
+        "Products": [
+            {
+                "Name": "Canon Fx234",
+                "Descriptions": "This camera has double lens power, focal lenght of 2.4",
+                "Maker": "Canon",
+                "Year": "2014",
+                "Price": 105000.00,
+                "HasWarant": true,
+                "HasOriginalPack": false
+            },
+            {
+                "Name": "Kenwood X5",
+                "Descriptions": "It has wireless features, bluetooth, editing sofware etc",
+                "Maker": "Kenwood",
+                "Year": "2012",
+                "Price": 250000.00,
+                "HasWarant": true,
+                "HasOriginalPack": true
+            }
+        ]
+    }
+]

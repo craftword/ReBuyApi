@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ReBuyCore.Interface;
 using ReBuyDtos;
 using ReBuyModels;
 
@@ -18,11 +19,13 @@ namespace ReBuyApi.Controllers
     {
         private readonly UserManager<UsersModel> _userManager;
         private readonly IMapper _mapper;
+        private readonly IUsers _users;
         
-        public UsersController(UserManager<UsersModel> userManager, IMapper mapper)
+        public UsersController(UserManager<UsersModel> userManager, IMapper mapper, IUsers users)
         {
             _userManager = userManager;
             _mapper = mapper;
+            _users = users;
             
         }
 
@@ -84,6 +87,69 @@ namespace ReBuyApi.Controllers
             {
 
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("{Id}/likes")]
+        public async Task<IActionResult> GetAUserLikesProduct(string Id)
+        {
+            try
+            {
+                var products = await _users.GetAllUserLikesProduct(Id);
+                if (products != null)
+                {
+                    var productMap = _mapper.Map<List<ProductModel>, List<ProductLikesDto>>(products);
+                    return Ok(productMap);
+                }
+                return NotFound();
+
+            }
+            catch (Exception)
+            {
+
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("{Id}/listings")]
+        public async Task<IActionResult> GetAUserListingProduct(string Id)
+        {
+            try
+            {
+                var products = await _users.GetAllUserListingProduct(Id);
+                if (products != null)
+                {
+                    var productMap = _mapper.Map<List<ProductModel>, List<ProductLikesDto>>(products);
+                    return Ok(productMap);
+                }
+                return NotFound();
+
+            }
+            catch (Exception)
+            {
+
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("{Id}/orders")]
+        public async Task<IActionResult> GetAUserOrders(string Id)
+        {
+            try
+            {
+                var orders = await _users.GetAllUserOrders(Id);
+                if (orders != null)
+                {
+                    var productMap = _mapper.Map<List<ProductModel>, List<ProductLikesDto>>(orders);
+                    return Ok(productMap);
+                }
+                return NotFound();
+
+            }
+            catch (Exception)
+            {
+
+                return BadRequest();
             }
         }
     }

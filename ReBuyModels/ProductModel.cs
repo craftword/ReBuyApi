@@ -13,6 +13,8 @@ namespace ReBuyModels
         public double Price { get; set; }
         public bool HasWarant { get; set; }
         public bool HasOriginalPack { get; set; }
+        public string Thumbnail { get; set; }
+        public int NoOfViews { get; set; }
         public DateTime Created_at { get; set; } = DateTime.Now;
 
         public CategoryModel Category { get; set; }
