@@ -11,6 +11,6 @@ namespace ReBuyCore.Interface
     {
         Task<ProductModel> GetAProductDetails(string Id);
         Task<List<ProductModel>> GetNewArrivalProducts();
-        Task<List<ProductModel>> GetRecentViewProducts();
+        Task<List<ProductModel>> GetMostViewProducts();
     }
 }

@@ -10,6 +10,8 @@
                 "Year": "2020",
                 "Price": 1500.00,
                 "HasWarant": true,
+                "NoOfViews": 2000,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": false
             },
             {
@@ -19,6 +21,8 @@
                 "Year": "2012",
                 "Price": 2500.00,
                 "HasWarant": true,
+                "NoOfViews": 1100,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": true
             }
         ]
@@ -34,6 +38,8 @@
                 "Year": "1996",
                 "Price": 12000.00,
                 "HasWarant": true,
+                "NoOfViews": 2000,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": false
             },
             {
@@ -43,6 +49,8 @@
                 "Year": "2002",
                 "Price": 18000.00,
                 "HasWarant": true,
+                "NoOfViews": 3000,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": true
             }
         ]
@@ -58,6 +66,8 @@
                 "Year": "2007",
                 "Price": 8999.00,
                 "HasWarant": true,
+                "NoOfViews": 200,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": false
             },
             {
@@ -67,6 +77,8 @@
                 "Year": "2012",
                 "Price": 6940.00,
                 "HasWarant": true,
+                "NoOfViews": 500,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": true
             }
         ]
@@ -82,6 +94,8 @@
                 "Year": "2014",
                 "Price": 105000.00,
                 "HasWarant": true,
+                "NoOfViews": 20000,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": false
             },
             {
@@ -91,6 +105,8 @@
                 "Year": "2012",
                 "Price": 250000.00,
                 "HasWarant": true,
+                "NoOfViews": 5000,
+                "Thumbnail": "default.jpg",
                 "HasOriginalPack": true
             }
         ]

@@ -139,6 +139,7 @@ namespace ReBuyApi
             // Services 
             services.AddScoped<IUsers, UserService>();
             services.AddScoped<IProduct, ProductService>();
+            services.AddScoped<IOrder, OrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

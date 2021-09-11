@@ -21,7 +21,8 @@ namespace ReBuyCore.Services
         public async Task<ProductModel> GetAProductDetails(string Id)
         {
             var product = await _dbContext.Products
-                                .Where(s => s.Id == Id)                               
+                                .Where(s => s.Id == Id) 
+                                .Include(x => x.Images)
                                 .FirstOrDefaultAsync();
             return product;
         }
@@ -35,10 +36,10 @@ namespace ReBuyCore.Services
             return product;
         }
 
-        public async Task<List<ProductModel>> GetRecentViewProducts()
+        public async Task<List<ProductModel>> GetMostViewProducts()
         {
             var product = await _dbContext.Products                                
-                               .OrderByDescending(s => s.Created_at)
+                               .OrderByDescending(s => s.NoOfViews)
                                .Take(4)
                                .ToListAsync();
             return product;

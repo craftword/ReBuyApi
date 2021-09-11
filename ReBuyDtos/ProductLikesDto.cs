@@ -9,7 +9,9 @@ namespace ReBuyDtos
     public class ProductLikesDto
     {
         public string Name { get; set; }        
-        public double Price { get; set; }        
+        public double Price { get; set; }
+        public string Thumbnail { get; set; }
+        public int NoOfViews { get; set; }
         public DateTime Created_at { get; set; }
     }
 }
