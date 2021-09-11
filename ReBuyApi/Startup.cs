@@ -118,7 +118,7 @@ namespace ReBuyApi
             {
                 options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimsIdentity.DefaultRoleClaimType, "Admin"));
                 options.AddPolicy("Customer", policy => policy.RequireClaim(ClaimsIdentity.DefaultRoleClaimType, "Customer"));
-                options.AddPolicy("AdminAndRegular", policy => policy.RequireRole("Admin", "Regular"));
+               
             });
         }
 
