@@ -27,7 +27,7 @@ namespace ReBuyApi.Controllers
         }
 
         [Authorize(Policy = "Customer")]        
-        [HttpGet("Id")]
+        [HttpGet("{Id}")]
         public async Task<IActionResult> GetAUsersById(string Id)
         {
             try
