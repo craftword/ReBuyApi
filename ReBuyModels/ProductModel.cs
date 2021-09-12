@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ReBuyModels
 {
@@ -17,6 +18,8 @@ namespace ReBuyModels
         public int NoOfViews { get; set; }
         public DateTime Created_at { get; set; } = DateTime.Now;
 
+        [ForeignKey("Category")]
+        public string CategoryId { get; set; }
         public CategoryModel Category { get; set; }
 
         public ICollection<OrdersModel> Orders { get; set; }

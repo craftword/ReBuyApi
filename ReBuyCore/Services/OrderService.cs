@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using ReBuyCore.Interface;
 using ReBuyData;
 using ReBuyModels;
@@ -25,7 +26,7 @@ namespace ReBuyCore.Services
                 await _dbContext.SaveChangesAsync();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 return false;
@@ -37,7 +38,7 @@ namespace ReBuyCore.Services
         {
             var order = await _dbContext.Orders
                                 .Where(s => s.Id == Id)
-                                .Include(x => x.Images)
+                                .Include(x => x.Product)
                                 .FirstOrDefaultAsync();
             return order;
         }

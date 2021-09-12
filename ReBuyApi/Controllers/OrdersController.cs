@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ReBuyCore.Interface;
 using ReBuyDtos;
+using ReBuyModels;
 
 namespace ReBuyApi.Controllers
 {
@@ -47,11 +48,36 @@ namespace ReBuyApi.Controllers
         }
 
 
-        [Authorize(Policy = "Customer")]
+        //[Authorize(Policy = "Customer")]
         [HttpPost]
         public async Task<IActionResult> AddNewOrder([FromBody] OrderDto model)
         {
+            
+            
+            var neworder = new OrdersModel()
+            {
+                Amount = model.Amount,
+                ShippingAddress = model.ShippingAddress,
+                State = model.State,
+                ProductId = model.ProductId,
+                UserId = model.UserId
+                
+            };
+            try
+            {
+                var order = await _orders.AddNewOrder(neworder);
+                if (order)
+                {
+                    return Ok();
+                }
+                return NotFound();
 
+            }
+            catch (Exception)
+            {
+
+                return BadRequest();
+            }
         }
     }
 }

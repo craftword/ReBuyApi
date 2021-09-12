@@ -9,7 +9,7 @@ using ReBuyData;
 namespace ReBuyData.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20210911152736_InitialDb")]
+    [Migration("20210911202753_InitialDb")]
     partial class InitialDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
